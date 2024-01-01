@@ -17,3 +17,23 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello World")
 }
+
+//+++++++++++++++++++++++++++++++++++++++++++
+//Types of memories
+//Stack(Primitive) and Heap(Non-Primitive)
+
+let myYoutubeName = "htcdotcom"
+let anothername = "Cacdotcom"
+
+console.log(myYoutubeName)
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "htc@googlecom"
+console.log(userOne.email);
+console.log(userTwo.email);
