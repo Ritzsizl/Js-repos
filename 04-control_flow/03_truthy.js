@@ -16,3 +16,11 @@ console.log(val1);//5
 console.log(val2);//10
 console.log(val3);//15
 console.log(val3);//15
+
+
+//Terniary Operator
+
+//condition  ? true : false
+
+const iceTeaPrice = 100
+iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80"); //more than 80
